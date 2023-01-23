@@ -1,0 +1,26 @@
+{
+    "name": "shifat-hossain/contact",
+    "description": "Demo Description",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shifat Hossain",
+            "email": "amithassan3229@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"ShifatHossain\\Contact\\": "src/"
+		}
+	},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ShifatHossain\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
